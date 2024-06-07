@@ -228,3 +228,70 @@
     transform: rotate(0deg);
   }
 }
+.register {
+  background: #eee;
+  border-radius: 60% / 10%;
+  transform: translateY(100%);
+  transition: .8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100%; /* Take full height of parent */
+}
+.register .label {
+  color: #573b8a;
+  transform: scale(.6);
+}
+
+.register .flipped {
+  transform: translateY(-90%);
+}
+
+.register .label {
+  transform: scale(1);
+  
+  margin: 10% 0 5%;
+}
+
+
+.login .label {
+  transform: scale(.6);
+  margin: 5% 0 5%;
+}
+
+.form button {
+  width: 85%;
+  height: 40px;
+  margin: 12px auto 10%;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+
+.form button:hover {
+  background-color: #6d44b8;
+}
+
+.switchForm {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.switchLabel {
+  color: #573b8a;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.switchLabel:hover {
+  color: #6d44b8;
+}
+
